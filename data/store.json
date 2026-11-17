@@ -1,0 +1,1302 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "fullName": "Tariro Chikwanda",
+      "email": "admin@afro-lancers.com",
+      "phone": "+263 77 200 1000",
+      "country": "Zimbabwe",
+      "role": "admin",
+      "status": "active",
+      "subscriptionTier": "enterprise",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "verifiedProfile": true,
+      "passwordHash": "1b6e7eadf851a7f9a3c45be1af55f8c2:2cdccaba4d99b6a647c131f661b41a03e41be8af6cb07a8ef39425222672e0dd361f9c0247f7a7d0140d89de45ae096e2b70daaa9b098eae8cef29baf3895c9c",
+      "bio": "Platform Operations & Marketplace Governance Lead.",
+      "languages": [
+        "English"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)"
+    },
+    {
+      "id": "usr-client-1",
+      "fullName": "Amara Diallo",
+      "email": "amara.diallo@afro-lancers.com",
+      "phone": "+221 77 450 2180",
+      "country": "Senegal",
+      "role": "client",
+      "status": "active",
+      "subscriptionTier": "enterprise",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "companyName": "Teranga FinTech Group",
+      "businessCategory": "IT & Software Development",
+      "companyWebsite": "https://terangafintech.example",
+      "bio": "Pan-African payments infrastructure firm hiring remote engineering, design, and financial compliance specialists.",
+      "passwordHash": "e6175ff1658cca81e44931b202ccd554:d55ab6b498ce3f347a3bdfca14c0e45eeb939ee69afb6af68c35969dc5222e34f3c30a297bc646dec15706bafc90a7338de5dd4af6b540b07bcc0e56da6c52d8",
+      "languages": [
+        "English"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)",
+      "city": "Dakar",
+      "teamMembers": [
+        {
+          "id": "tm-1",
+          "name": "Amara Diallo",
+          "email": "amara.diallo@afro-lancers.com",
+          "role": "Owner",
+          "status": "active",
+          "addedAt": "2026-11-16T22:31:12.492Z"
+        },
+        {
+          "id": "tm-2",
+          "name": "Moussa Ndiaye",
+          "email": "moussa.ndiaye@terangafintech.example",
+          "role": "Hiring Manager",
+          "status": "active",
+          "addedAt": "2026-11-16T22:31:12.492Z"
+        },
+        {
+          "id": "tm-3",
+          "name": "Fatou Sow",
+          "email": "fatou.sow@terangafintech.example",
+          "role": "Finance Approver",
+          "status": "active",
+          "addedAt": "2026-11-16T22:31:12.492Z"
+        }
+      ]
+    },
+    {
+      "id": "usr-client-2",
+      "fullName": "David Kensington",
+      "email": "d.kensington@meridian.example",
+      "phone": "+44 20 7946 0821",
+      "country": "United Kingdom",
+      "role": "client",
+      "status": "active",
+      "subscriptionTier": "pro",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "companyName": "Meridian Advisory Partners",
+      "businessCategory": "Business Consulting",
+      "bio": "London-based consulting group partnering with African analysts, accountants, and digital teams.",
+      "passwordHash": "629061a3731f7808251eb731261b9e60:c7097401d55c766a066eacd84c0fb3e784c3b9338232cbfa1320fd5f2262f48b1c795eec3dad18314a0ef4c6b6f4f3c24ce55d3f08da0d2688090d94ec1233e1",
+      "languages": [
+        "English"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)",
+      "city": "London",
+      "teamMembers": [
+        {
+          "id": "tm-4",
+          "name": "David Kensington",
+          "email": "d.kensington@meridian.example",
+          "role": "Owner",
+          "status": "active",
+          "addedAt": "2026-11-16T22:31:12.492Z"
+        }
+      ]
+    },
+    {
+      "id": "usr-fl-1",
+      "fullName": "Kwame Mensah",
+      "email": "kwame.mensah@afro-lancers.com",
+      "phone": "+233 24 812 4401",
+      "country": "Ghana",
+      "role": "freelancer",
+      "status": "active",
+      "subscriptionTier": "pro",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "title": "Senior Full-Stack & Cloud Architect",
+      "category": "IT & Software Development",
+      "skills": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "AWS Architecture"
+      ],
+      "experienceLevel": "Senior",
+      "yearsExperience": 8,
+      "photoUrl": "/src/assets/images/portrait_male_engineer_1794858345961.jpg",
+      "portfolioUrl": "https://kwamemensah.dev.example",
+      "portfolioItems": [
+        {
+          "id": "pf-1",
+          "title": "Cross-Border Payment Gateway API",
+          "summary": "Architected high-throughput settlement APIs serving West African commercial banks.",
+          "category": "IT & Software Development"
+        },
+        {
+          "id": "pf-2",
+          "title": "Enterprise SaaS Analytics Portal",
+          "summary": "Led frontend and cloud deployment for a multi-tenant logistics platform.",
+          "category": "IT & Software Development"
+        }
+      ],
+      "bio": "Accra-based principal software engineer building resilient fintech platforms, cloud-native APIs, and enterprise web applications for global teams.",
+      "hourlyRate": 65,
+      "pricingModel": "both",
+      "availability": "Available Now",
+      "completedProjectsCount": 1,
+      "ratingAverage": 5,
+      "reviewCount": 1,
+      "passwordHash": "4c9ae890cbb8a7f5aceb53c2ee9ccaf3:0672b29a2ff8a946dac25dd37a8c4ac68f9465dc264ff495e05e2c726ed7ddd433052980201602851076eb7f0c351c5c6535b4d740a65066a2b70a21fbc6b394",
+      "projectAlerts": {
+        "enabled": true,
+        "categories": [
+          "IT & Software Development"
+        ],
+        "keywords": [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "PostgreSQL"
+        ],
+        "minBudget": 0,
+        "remoteOnly": false
+      },
+      "languages": [
+        "English"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)",
+      "activityStreakWeeks": 1,
+      "identityVerified": true,
+      "city": "Accra",
+      "freelancerOfTheMonth": true,
+      "risingTalent": false,
+      "skillsVerified": true,
+      "certifiedSkills": [
+        "TypeScript Systems",
+        "AWS Solutions Architect",
+        "PostgreSQL Performance"
+      ],
+      "achievementBadges": [
+        "100% On-Time Delivery",
+        "Top Fintech Architect",
+        "14-Week Streak"
+      ],
+      "isFeaturedProfile": true,
+      "lastActiveAt": "2026-11-16T22:32:08.677Z"
+    },
+    {
+      "id": "usr-fl-2",
+      "fullName": "Zainab Okafor",
+      "email": "zainab.okafor@afro-lancers.com",
+      "phone": "+234 803 512 9904",
+      "country": "Nigeria",
+      "role": "freelancer",
+      "status": "active",
+      "subscriptionTier": "pro",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "title": "Principal Brand & Product Designer",
+      "category": "Graphic Design & Branding",
+      "skills": [
+        "Brand Identity",
+        "Design Systems",
+        "Figma",
+        "UI/UX",
+        "Editorial Direction"
+      ],
+      "experienceLevel": "Senior",
+      "yearsExperience": 7,
+      "photoUrl": "/src/assets/images/portrait_female_designer_1794858346695.jpg",
+      "portfolioUrl": "https://zainabokafor.design.example",
+      "portfolioItems": [
+        {
+          "id": "pf-3",
+          "title": "Pan-African Neobank Rebrand",
+          "summary": "Complete visual identity, typography system, and mobile product design language.",
+          "category": "Graphic Design & Branding"
+        }
+      ],
+      "bio": "Lagos-based brand director crafting authoritative visual identities, design systems, and B2B digital products for high-growth companies.",
+      "hourlyRate": 55,
+      "pricingModel": "both",
+      "availability": "Available Now",
+      "completedProjectsCount": 1,
+      "ratingAverage": 4.9,
+      "reviewCount": 1,
+      "passwordHash": "192ec85ca0dfd1089ab5820d540c39c0:c275e4b104879938d8e0dc184bbcad02d8759492578e5b0b9358c4fb889dd6bd09fce79cb1b474495d5fbfbdb168ec0a0a2eb35510228e630391a32ed898da04",
+      "projectAlerts": {
+        "enabled": true,
+        "categories": [
+          "Graphic Design & Branding"
+        ],
+        "keywords": [
+          "Brand Identity",
+          "Design Systems",
+          "Figma",
+          "UI/UX"
+        ],
+        "minBudget": 0,
+        "remoteOnly": false
+      },
+      "languages": [
+        "English"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)",
+      "activityStreakWeeks": 1,
+      "identityVerified": true,
+      "city": "Lagos",
+      "freelancerOfTheMonth": false,
+      "risingTalent": false,
+      "skillsVerified": true,
+      "certifiedSkills": [
+        "Design Systems Architecture",
+        "Figma Enterprise"
+      ],
+      "achievementBadges": [
+        "Design Excellence",
+        "Verified Specialist"
+      ],
+      "isFeaturedProfile": true
+    },
+    {
+      "id": "usr-fl-3",
+      "fullName": "Wanjiku Kamau",
+      "email": "wanjiku.kamau@afro-lancers.com",
+      "phone": "+254 712 390 882",
+      "country": "Kenya",
+      "role": "freelancer",
+      "status": "active",
+      "subscriptionTier": "pro",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "title": "Chartered Accountant & CFO Advisor",
+      "category": "Accounting & Finance",
+      "skills": [
+        "IFRS Reporting",
+        "Financial Modeling",
+        "Audit Readiness",
+        "Tax Strategy",
+        "FP&A"
+      ],
+      "experienceLevel": "Executive",
+      "yearsExperience": 10,
+      "photoUrl": "/src/assets/images/portrait_female_finance_1794858346533.jpg",
+      "portfolioUrl": "https://wanjikufinance.example",
+      "portfolioItems": [
+        {
+          "id": "pf-4",
+          "title": "Series A Financial Model & Data Room",
+          "summary": "Prepared audited IFRS projections and investor reporting pack for an East African agritech.",
+          "category": "Accounting & Finance"
+        }
+      ],
+      "bio": "Nairobi-based CPA and fractional financial controller guiding international startups and regional enterprises through IFRS compliance and investor reporting.",
+      "hourlyRate": 70,
+      "pricingModel": "both",
+      "availability": "Open to Offers",
+      "completedProjectsCount": 0,
+      "ratingAverage": null,
+      "reviewCount": 0,
+      "passwordHash": "8dc846f12d9b53b1aab55a6edc28dcea:b4a54fed8f14ead699fc6cb59dc1d2cff6084841cfdceaaf2096e32b6fb96be32553eacf2fde9a504c6b4d3270987820ee1ffcf9497255aa5a10c23b79bd8599",
+      "projectAlerts": {
+        "enabled": true,
+        "categories": [
+          "Accounting & Finance"
+        ],
+        "keywords": [
+          "IFRS Reporting",
+          "Financial Modeling",
+          "Audit Readiness",
+          "Tax Strategy"
+        ],
+        "minBudget": 0,
+        "remoteOnly": false
+      },
+      "languages": [
+        "English"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)",
+      "activityStreakWeeks": 1,
+      "identityVerified": true,
+      "city": "Nairobi",
+      "skillsVerified": true,
+      "certifiedSkills": [
+        "ACCA / CPA-K",
+        "IFRS Consolidation"
+      ],
+      "achievementBadges": [
+        "Certified IFRS Advisor",
+        "Enterprise Trusted"
+      ],
+      "isFeaturedProfile": true
+    },
+    {
+      "id": "usr-fl-4",
+      "fullName": "Thabo Mokoena",
+      "email": "thabo.mokoena@afro-lancers.com",
+      "phone": "+27 82 640 1192",
+      "country": "South Africa",
+      "role": "freelancer",
+      "status": "active",
+      "subscriptionTier": "standard",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "title": "B2B Growth & Digital Strategy Director",
+      "category": "Digital Marketing",
+      "skills": [
+        "B2B Demand Gen",
+        "SEO Architecture",
+        "Paid Media",
+        "Analytics",
+        "Go-To-Market"
+      ],
+      "experienceLevel": "Senior",
+      "yearsExperience": 6,
+      "photoUrl": "/src/assets/images/portrait_male_marketing_1794858347073.jpg",
+      "portfolioUrl": "https://thabogrowth.example",
+      "portfolioItems": [
+        {
+          "id": "pf-5",
+          "title": "EMEA Enterprise Pipeline Campaign",
+          "summary": "Structured search and LinkedIn demand strategy for a B2B SaaS provider.",
+          "category": "Digital Marketing"
+        }
+      ],
+      "bio": "Johannesburg-based digital strategist focused on measurable B2B pipeline acquisition, technical SEO, and cross-border market expansion.",
+      "hourlyRate": 50,
+      "pricingModel": "hourly",
+      "availability": "Available Now",
+      "completedProjectsCount": 0,
+      "ratingAverage": null,
+      "reviewCount": 0,
+      "passwordHash": "b787e4e57736f47df6458a2c874f5754:c329aa1473d59a825a5953b85ffee734bfaf4434bd866d774f08e761dfe36d0f93f3842fa32b9acd00a6c9c5d4bb323031d100e0efa940f547824818d5afe534",
+      "projectAlerts": {
+        "enabled": true,
+        "categories": [
+          "Digital Marketing"
+        ],
+        "keywords": [
+          "B2B Demand Gen",
+          "SEO Architecture",
+          "Paid Media",
+          "Analytics"
+        ],
+        "minBudget": 0,
+        "remoteOnly": false
+      },
+      "languages": [
+        "English"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)",
+      "activityStreakWeeks": 1,
+      "identityVerified": true,
+      "city": "Johannesburg",
+      "risingTalent": true,
+      "skillsVerified": false,
+      "achievementBadges": [
+        "Rising Talent",
+        "7-Week Streak"
+      ]
+    },
+    {
+      "id": "usr-fl-5",
+      "fullName": "Chidinma Eze",
+      "email": "chidinma.eze@afro-lancers.com",
+      "phone": "+234 809 301 7742",
+      "country": "Nigeria",
+      "role": "freelancer",
+      "status": "active",
+      "subscriptionTier": "standard",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "verifiedProfile": false,
+      "title": "Executive Virtual Assistant & Operations Lead",
+      "category": "Virtual Assistance",
+      "skills": [
+        "Executive Calendar",
+        "Board Reporting",
+        "Travel Logistics",
+        "Notion",
+        "CRM Admin"
+      ],
+      "experienceLevel": "Intermediate",
+      "yearsExperience": 5,
+      "photoUrl": "/src/assets/images/promo_freelancer_studio_1794858346085.jpg",
+      "portfolioItems": [
+        {
+          "id": "pf-6",
+          "title": "Founder Office & Investor Ops",
+          "summary": "Managed multi-timezone schedules and quarterly stakeholder updates for 3 executives.",
+          "category": "Virtual Assistance"
+        }
+      ],
+      "bio": "Detail-oriented executive partner supporting international founders with structured inbox management, SOP documentation, and board preparation.",
+      "hourlyRate": 28,
+      "pricingModel": "hourly",
+      "availability": "Available Now",
+      "completedProjectsCount": 0,
+      "ratingAverage": null,
+      "reviewCount": 0,
+      "passwordHash": "a080e34801a6364fffe5e1e8c837f0e0:5622ee617f6b1bc9783aac0de0777952f934a5fac6fb2e90c3b26b544caf409d07e26f410be9c43cf72e02e10bbad678b88f0009909553101a5307be16369453",
+      "projectAlerts": {
+        "enabled": true,
+        "categories": [
+          "Virtual Assistance"
+        ],
+        "keywords": [
+          "Executive Calendar",
+          "Board Reporting",
+          "Travel Logistics",
+          "Notion"
+        ],
+        "minBudget": 0,
+        "remoteOnly": false
+      },
+      "languages": [
+        "English"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)",
+      "activityStreakWeeks": 1,
+      "identityVerified": false,
+      "city": "Abuja",
+      "risingTalent": true,
+      "achievementBadges": [
+        "Rising Talent"
+      ]
+    },
+    {
+      "id": "usr-fl-6",
+      "fullName": "Rumbidzai Moyo",
+      "email": "rumbidzai.moyo@afro-lancers.com",
+      "phone": "+263 77 412 8890",
+      "country": "Zimbabwe",
+      "city": "Harare",
+      "languages": [
+        "English",
+        "Shona",
+        "Ndebele"
+      ],
+      "timezone": "CAT / UTC+2 (Harare, Johannesburg, Kigali, Cairo)",
+      "role": "freelancer",
+      "status": "active",
+      "subscriptionTier": "pro",
+      "createdAt": "2026-11-16T22:31:12.492Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "identityVerified": true,
+      "skillsVerified": true,
+      "certifiedSkills": [
+        "AWS Security Specialty",
+        "ISO 27001 Lead Auditor"
+      ],
+      "activityStreakWeeks": 10,
+      "lastActiveAt": "2026-11-16T22:31:12.492Z",
+      "achievementBadges": [
+        "Cloud Security Certified",
+        "10-Week Streak"
+      ],
+      "title": "Cloud Security & DevSecOps Specialist",
+      "category": "Cybersecurity & Cloud Operations",
+      "skills": [
+        "Penetration Testing",
+        "AWS Security",
+        "Terraform",
+        "SOC 2",
+        "Kubernetes"
+      ],
+      "experienceLevel": "Senior",
+      "yearsExperience": 6,
+      "photoUrl": "/src/assets/images/portrait_female_finance_1794858346533.jpg",
+      "portfolioItems": [
+        {
+          "id": "pf-7",
+          "title": "Pan-African PSP Zero-Trust Audit",
+          "summary": "Hardened multi-region cloud workloads and automated CI security gates.",
+          "category": "Cybersecurity & Cloud Operations"
+        }
+      ],
+      "bio": "Harare-based DevSecOps engineer helping payment institutions and global SaaS teams achieve SOC 2 and ISO 27001 compliance.",
+      "hourlyRate": 62,
+      "pricingModel": "both",
+      "availability": "Available Now",
+      "completedProjectsCount": 0,
+      "ratingAverage": null,
+      "reviewCount": 0,
+      "passwordHash": "8504603566025de9f39ff6e70cde7967:330a350a2d63afbc14779ea72ecc389f0bcd1057f85a55996c577f59825fb0c19c1497054bd5a49c219cbaf8bedf4a758b4ab8cbca96becbccba41f9145c704f",
+      "projectAlerts": {
+        "enabled": true,
+        "categories": [
+          "Cybersecurity & Cloud Operations"
+        ],
+        "keywords": [
+          "Penetration Testing",
+          "AWS Security",
+          "Terraform",
+          "SOC 2"
+        ],
+        "minBudget": 0,
+        "remoteOnly": false
+      }
+    },
+    {
+      "id": "usr-fl-7",
+      "fullName": "Youssef Benali",
+      "email": "youssef.benali@afro-lancers.com",
+      "phone": "+212 661 480 219",
+      "country": "Morocco",
+      "city": "Casablanca",
+      "languages": [
+        "Arabic",
+        "French",
+        "English"
+      ],
+      "timezone": "WAT / UTC+1 (Lagos, Douala, Paris)",
+      "role": "freelancer",
+      "status": "active",
+      "subscriptionTier": "standard",
+      "createdAt": "2026-11-16T22:31:12.492Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "identityVerified": true,
+      "skillsVerified": true,
+      "certifiedSkills": [
+        "Applied NLP & RAG Pipelines",
+        "Python ML"
+      ],
+      "activityStreakWeeks": 8,
+      "lastActiveAt": "2026-11-16T22:31:12.492Z",
+      "achievementBadges": [
+        "AI Practitioner",
+        "Multilingual Talent"
+      ],
+      "title": "Applied AI & Machine Learning Engineer",
+      "category": "AI, Machine Learning & Data Science",
+      "skills": [
+        "Python",
+        "PyTorch",
+        "LLM Pipelines",
+        "Data Engineering",
+        "FastAPI"
+      ],
+      "experienceLevel": "Senior",
+      "yearsExperience": 5,
+      "photoUrl": "/src/assets/images/portrait_male_engineer_1794858345961.jpg",
+      "portfolioItems": [
+        {
+          "id": "pf-8",
+          "title": "Multilingual Agritech Advisory Copilot",
+          "summary": "Deployed French/Arabic/English crop diagnostics workflow for North African cooperatives.",
+          "category": "AI, Machine Learning & Data Science"
+        }
+      ],
+      "bio": "Casablanca-based AI engineer building multilingual NLP pipelines, predictive analytics models, and production data infrastructure.",
+      "hourlyRate": 68,
+      "pricingModel": "both",
+      "availability": "Available Now",
+      "completedProjectsCount": 0,
+      "ratingAverage": null,
+      "reviewCount": 0,
+      "passwordHash": "da513e6687dd05aa5535058055b2cc9b:922ec0dce2f30b1e58c16c8f0df3cf800b70a73fad97bd09e129180b485aa1d2acc5162cb0dbf640f4a7b6ff41def2dd0057d9c42606a63ffe1105d7ebafa1b7",
+      "projectAlerts": {
+        "enabled": true,
+        "categories": [
+          "AI, Machine Learning & Data Science"
+        ],
+        "keywords": [
+          "Python",
+          "PyTorch",
+          "LLM Pipelines",
+          "Data Engineering"
+        ],
+        "minBudget": 0,
+        "remoteOnly": false
+      }
+    },
+    {
+      "id": "usr-fl-8",
+      "fullName": "Dr. Maya Osei-Bonsu",
+      "email": "maya.osei@afro-lancers.com",
+      "phone": "+44 7700 900412",
+      "country": "United Kingdom",
+      "city": "London",
+      "languages": [
+        "English",
+        "Twi"
+      ],
+      "timezone": "GMT / UTC+0 (Accra, Dakar, London)",
+      "role": "freelancer",
+      "status": "active",
+      "subscriptionTier": "pro",
+      "createdAt": "2026-11-16T22:31:12.492Z",
+      "isDemo": true,
+      "verifiedProfile": true,
+      "identityVerified": true,
+      "skillsVerified": true,
+      "certifiedSkills": [
+        "Cross-Border Commercial Law",
+        "GDPR & Data Privacy"
+      ],
+      "activityStreakWeeks": 6,
+      "lastActiveAt": "2026-11-16T22:31:12.492Z",
+      "achievementBadges": [
+        "Diaspora Network Leader",
+        "Legal Advisory"
+      ],
+      "title": "Cross-Border Corporate & IP Counsel",
+      "category": "Legal & Compliance Advisory",
+      "skills": [
+        "Contract Drafting",
+        "IP Licensing",
+        "Data Privacy",
+        "Regulatory Compliance"
+      ],
+      "experienceLevel": "Executive",
+      "yearsExperience": 9,
+      "photoUrl": "/src/assets/images/portrait_female_designer_1794858346695.jpg",
+      "portfolioItems": [
+        {
+          "id": "pf-9",
+          "title": "UK–West Africa Venture Structuring",
+          "summary": "Drafted cross-border IP assignment and commercial SaaS agreements.",
+          "category": "Legal & Compliance Advisory"
+        }
+      ],
+      "bio": "London-based Ghanaian diaspora counsel advising African startups and international investors on commercial contracts and data compliance.",
+      "hourlyRate": 95,
+      "pricingModel": "both",
+      "availability": "Open to Offers",
+      "completedProjectsCount": 0,
+      "ratingAverage": null,
+      "reviewCount": 0,
+      "passwordHash": "dcf6b0cc2a0c136d29b407b9241a2e7d:aae412a3c70b715ec8637b8c2bf0fd0d3dab02bb33e90e14be177fc89e47b49788b78b449205960f8ffcbcb62caf7ddfd9860822e207b3988fff7286a766ea94",
+      "projectAlerts": {
+        "enabled": true,
+        "categories": [
+          "Legal & Compliance Advisory"
+        ],
+        "keywords": [
+          "Contract Drafting",
+          "IP Licensing",
+          "Data Privacy",
+          "Regulatory Compliance"
+        ],
+        "minBudget": 0,
+        "remoteOnly": false
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "IT & Software Development",
+      "slug": "it-software-development",
+      "description": "Full-stack engineers, cloud architects, mobile developers, and QA leads.",
+      "iconKey": "Code2",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-2",
+      "name": "Graphic Design & Branding",
+      "slug": "graphic-design-branding",
+      "description": "Visual identity systems, UI/UX design, packaging, and editorial graphics.",
+      "iconKey": "PenTool",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-3",
+      "name": "Writing & Translation",
+      "slug": "writing-translation",
+      "description": "Technical documentation, editorial copywriting, and multilingual localization.",
+      "iconKey": "FileText",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-4",
+      "name": "Digital Marketing",
+      "slug": "digital-marketing",
+      "description": "Performance acquisition, SEO strategy, content growth, and social campaigns.",
+      "iconKey": "Megaphone",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-5",
+      "name": "Accounting & Finance",
+      "slug": "accounting-finance",
+      "description": "Chartered accountants, IFRS reporting, financial modeling, and tax advisory.",
+      "iconKey": "Calculator",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-6",
+      "name": "Virtual Assistance",
+      "slug": "virtual-assistance",
+      "description": "Executive scheduling, inbox governance, travel coordination, and operations.",
+      "iconKey": "CalendarCheck",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-7",
+      "name": "Customer Support",
+      "slug": "customer-support",
+      "description": "Multilingual client success specialists, helpdesk teams, and onboarding leads.",
+      "iconKey": "Headphones",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-8",
+      "name": "Photography & Videography",
+      "slug": "photography-videography",
+      "description": "Commercial film production, corporate photography, and post-production editing.",
+      "iconKey": "Camera",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-9",
+      "name": "Engineering & Architecture",
+      "slug": "engineering-architecture",
+      "description": "CAD drafting, structural planning, BIM modeling, and civil infrastructure review.",
+      "iconKey": "Compass",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-10",
+      "name": "Business Consulting",
+      "slug": "business-consulting",
+      "description": "Market entry strategy, operational transformation, and management advisory.",
+      "iconKey": "Briefcase",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-11",
+      "name": "Data Entry & Research",
+      "slug": "data-entry-research",
+      "description": "Market intelligence, structured database curation, and academic data analysis.",
+      "iconKey": "Database",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-12",
+      "name": "Sales & Lead Generation",
+      "slug": "sales-lead-generation",
+      "description": "B2B pipeline building, SDR outreach, CRM enrichment, and partnership closing.",
+      "iconKey": "TrendingUp",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-13",
+      "name": "Administration",
+      "slug": "administration",
+      "description": "HR coordination, compliance documentation, procurement, and office systems.",
+      "iconKey": "ClipboardList",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-14",
+      "name": "Education & Tutoring",
+      "slug": "education-tutoring",
+      "description": "Curriculum design, STEM instruction, corporate training, and language coaching.",
+      "iconKey": "GraduationCap",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-15",
+      "name": "Trades & Technical Services",
+      "slug": "trades-technical-services",
+      "description": "Solar system technicians, industrial maintenance, network cabling, and hardware repair.",
+      "iconKey": "Wrench",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-16",
+      "name": "Legal & Compliance Advisory",
+      "slug": "legal-compliance-advisory",
+      "description": "Contract drafting, corporate governance, intellectual property, and regulatory compliance.",
+      "iconKey": "Scale",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-17",
+      "name": "Human Resources & Talent Acquisition",
+      "slug": "human-resources-talent-acquisition",
+      "description": "Executive recruiting, payroll policy, people operations, and performance systems.",
+      "iconKey": "Users",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-18",
+      "name": "Cybersecurity & Cloud Operations",
+      "slug": "cybersecurity-cloud-operations",
+      "description": "Penetration testing, DevSecOps, cloud hardening, and SOC compliance audits.",
+      "iconKey": "ShieldCheck",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-19",
+      "name": "AI, Machine Learning & Data Science",
+      "slug": "ai-machine-learning-data-science",
+      "description": "Predictive modeling, NLP systems, analytics pipelines, and applied AI workflows.",
+      "iconKey": "Cpu",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-20",
+      "name": "Supply Chain, Logistics & Procurement",
+      "slug": "supply-chain-logistics-procurement",
+      "description": "Cross-border freight planning, vendor sourcing, inventory optimization, and trade ops.",
+      "iconKey": "Truck",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-21",
+      "name": "Health, Medical & Telehealth Support",
+      "slug": "health-medical-telehealth-support",
+      "description": "Medical transcription, public health research, clinical coordination, and wellness coaching.",
+      "iconKey": "HeartPulse",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-22",
+      "name": "Agriculture, Climate & Sustainability",
+      "slug": "agriculture-climate-sustainability",
+      "description": "Agronomy consulting, ESG reporting, carbon project audits, and renewable energy advisory.",
+      "iconKey": "Sprout",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-23",
+      "name": "Audio Production, Voiceover & Music",
+      "slug": "audio-production-voiceover-music",
+      "description": "Multilingual voiceovers, podcast engineering, sound design, and commercial scoring.",
+      "iconKey": "Mic",
+      "freelancerCount": 0
+    },
+    {
+      "id": "cat-24",
+      "name": "E-Commerce & Product Management",
+      "slug": "ecommerce-product-management",
+      "description": "Storefront optimization, marketplace merchandising, agile product roadmaps, and launch ops.",
+      "iconKey": "ShoppingBag",
+      "freelancerCount": 0
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "clientId": "usr-client-1",
+      "clientName": "Amara Diallo",
+      "companyName": "Teranga FinTech Group",
+      "title": "Lead React & TypeScript Architect for Merchant Portal",
+      "category": "IT & Software Development",
+      "description": "Design and implement a high-reliability merchant settlement portal with role-based permissions, multi-currency reconciliation views, and accessible reporting tables.",
+      "budgetMin": 4500,
+      "budgetMax": 7200,
+      "budgetType": "fixed",
+      "experienceLevel": "Senior",
+      "jobType": "Remote",
+      "location": "Dakar / Remote",
+      "remoteStatus": "Remote",
+      "country": "Senegal",
+      "skillsRequired": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "REST APIs"
+      ],
+      "deadline": "2026-12-15",
+      "status": "open",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "isFeatured": true
+    },
+    {
+      "id": "job-2",
+      "clientId": "usr-client-2",
+      "clientName": "David Kensington",
+      "companyName": "Meridian Advisory Partners",
+      "title": "Chartered Accountant for Cross-Border IFRS Consolidation",
+      "category": "Accounting & Finance",
+      "description": "Partner with our London and Nairobi finance teams to prepare quarterly IFRS consolidation schedules, variance commentary, and board audit packs.",
+      "budgetMin": 55,
+      "budgetMax": 80,
+      "budgetType": "hourly",
+      "experienceLevel": "Executive",
+      "jobType": "Contract",
+      "location": "London / Remote",
+      "remoteStatus": "Remote",
+      "country": "United Kingdom",
+      "skillsRequired": [
+        "IFRS Reporting",
+        "Financial Modeling",
+        "Audit Readiness"
+      ],
+      "deadline": "2026-12-10",
+      "status": "open",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true,
+      "isFeatured": true
+    },
+    {
+      "id": "job-3",
+      "clientId": "usr-client-1",
+      "clientName": "Amara Diallo",
+      "companyName": "Teranga FinTech Group",
+      "title": "Corporate Brand Identity & Design System Overhaul",
+      "category": "Graphic Design & Branding",
+      "description": "Establish an authoritative pan-African corporate design system covering typography, web components, investor deck templates, and product UI standards.",
+      "budgetMin": 3200,
+      "budgetMax": 4800,
+      "budgetType": "fixed",
+      "experienceLevel": "Senior",
+      "jobType": "Fixed-price",
+      "location": "Remote (Africa-wide)",
+      "remoteStatus": "Remote",
+      "country": "Senegal",
+      "skillsRequired": [
+        "Brand Identity",
+        "Design Systems",
+        "Figma"
+      ],
+      "deadline": "2026-12-20",
+      "status": "open",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true
+    },
+    {
+      "id": "job-4",
+      "clientId": "usr-client-2",
+      "clientName": "David Kensington",
+      "companyName": "Meridian Advisory Partners",
+      "title": "B2B Digital Acquisition & Technical SEO Strategist",
+      "category": "Digital Marketing",
+      "description": "Audit organic search architecture, build high-intent enterprise landing pages, and manage LinkedIn demand campaigns across EMEA and East Africa.",
+      "budgetMin": 40,
+      "budgetMax": 60,
+      "budgetType": "hourly",
+      "experienceLevel": "Senior",
+      "jobType": "Part-time",
+      "location": "Remote",
+      "remoteStatus": "Remote",
+      "country": "United Kingdom",
+      "skillsRequired": [
+        "SEO Architecture",
+        "B2B Demand Gen",
+        "Analytics"
+      ],
+      "deadline": "2026-12-18",
+      "status": "open",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true
+    },
+    {
+      "id": "job-5",
+      "clientId": "usr-client-1",
+      "clientName": "Amara Diallo",
+      "companyName": "Teranga FinTech Group",
+      "title": "Bilingual French/English Executive Virtual Assistant",
+      "category": "Virtual Assistance",
+      "description": "Support executive leadership with multi-timezone scheduling, board meeting minutes, vendor coordination, and travel logistics across West Africa and Europe.",
+      "budgetMin": 22,
+      "budgetMax": 32,
+      "budgetType": "hourly",
+      "experienceLevel": "Intermediate",
+      "jobType": "Full-time",
+      "location": "Remote",
+      "remoteStatus": "Remote",
+      "country": "Senegal",
+      "skillsRequired": [
+        "Executive Calendar",
+        "Board Reporting",
+        "Bilingual French/English"
+      ],
+      "deadline": "2026-12-12",
+      "status": "open",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true
+    },
+    {
+      "id": "job-6",
+      "clientId": "usr-client-2",
+      "clientName": "David Kensington",
+      "companyName": "Meridian Advisory Partners",
+      "title": "Renewable Energy Market Research & Financial Data Analyst",
+      "category": "Data Entry & Research",
+      "description": "Compile verified regulatory, tariff, and grid-capacity datasets across 8 Southern and East African countries for an institutional investment briefing.",
+      "budgetMin": 1800,
+      "budgetMax": 2600,
+      "budgetType": "fixed",
+      "experienceLevel": "Intermediate",
+      "jobType": "Freelance project",
+      "location": "Remote",
+      "remoteStatus": "Remote",
+      "country": "Kenya",
+      "skillsRequired": [
+        "Market Research",
+        "Excel Modeling",
+        "Data Curation"
+      ],
+      "deadline": "2026-12-22",
+      "status": "open",
+      "createdAt": "2026-11-16T19:53:10.643Z",
+      "isDemo": true
+    },
+    {
+      "id": "job-7",
+      "clientId": "usr-client-1",
+      "clientName": "Amara Diallo",
+      "companyName": "Teranga FinTech Group",
+      "title": "SOC 2 Cloud Hardening & Penetration Test Engagement",
+      "category": "Cybersecurity & Cloud Operations",
+      "description": "Conduct infrastructure penetration testing, IAM policy audits, and Terraform security remediation ahead of regional central bank licensing.",
+      "budgetMin": 3800,
+      "budgetMax": 5500,
+      "budgetType": "fixed",
+      "experienceLevel": "Senior",
+      "jobType": "Contract",
+      "location": "Harare / Remote",
+      "remoteStatus": "Remote",
+      "country": "Zimbabwe",
+      "skillsRequired": [
+        "Penetration Testing",
+        "AWS Security",
+        "SOC 2"
+      ],
+      "deadline": "2026-12-28",
+      "status": "open",
+      "isFeatured": true,
+      "createdAt": "2026-11-16T22:31:12.492Z",
+      "isDemo": true
+    }
+  ],
+  "proposals": [
+    {
+      "id": "prop-1",
+      "jobId": "job-1",
+      "jobTitle": "Lead React & TypeScript Architect for Merchant Portal",
+      "freelancerId": "usr-fl-1",
+      "freelancerName": "Kwame Mensah",
+      "freelancerTitle": "Senior Full-Stack & Cloud Architect",
+      "freelancerPhoto": "/src/assets/images/portrait_male_engineer_1794858345961.jpg",
+      "freelancerCountry": "Ghana",
+      "clientId": "usr-client-1",
+      "coverLetter": "I have architected settlement dashboards for two licensed West African PSPs using TypeScript, React, and strict RBAC patterns.",
+      "proposedRate": 5800,
+      "timeline": "6 weeks",
+      "status": "completed",
+      "createdAt": "2026-11-16T19:53:10.643Z"
+    },
+    {
+      "id": "prop-2",
+      "jobId": "job-3",
+      "jobTitle": "Corporate Brand Identity & Design System Overhaul",
+      "freelancerId": "usr-fl-2",
+      "freelancerName": "Zainab Okafor",
+      "freelancerTitle": "Principal Brand & Product Designer",
+      "freelancerPhoto": "/src/assets/images/portrait_female_designer_1794858346695.jpg",
+      "freelancerCountry": "Nigeria",
+      "clientId": "usr-client-1",
+      "coverLetter": "Sharing our fintech design system architecture case study covering token governance, accessibility, and executive presentation decks.",
+      "proposedRate": 4100,
+      "timeline": "4 weeks",
+      "status": "completed",
+      "createdAt": "2026-11-16T19:53:10.643Z"
+    }
+  ],
+  "invitations": [],
+  "savedJobs": [],
+  "shortlists": [],
+  "messages": [
+    {
+      "id": "msg-1",
+      "senderId": "usr-client-1",
+      "senderName": "Amara Diallo",
+      "senderRole": "client",
+      "recipientId": "usr-fl-1",
+      "recipientName": "Kwame Mensah",
+      "jobId": "job-1",
+      "jobTitle": "Lead React & TypeScript Architect for Merchant Portal",
+      "body": "Welcome aboard Kwame — let us review the milestone schedule for the settlement dashboard this week.",
+      "read": false,
+      "createdAt": "2026-11-16T19:53:10.643Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "usr-fl-1",
+      "title": "New message from Teranga FinTech Group",
+      "body": "Amara Diallo sent a message regarding Lead React & TypeScript Architect.",
+      "type": "message",
+      "read": false,
+      "targetView": "dashboard",
+      "createdAt": "2026-11-16T19:53:10.643Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-client-1",
+      "title": "Proposal archive updated",
+      "body": "Two completed project evaluations are available in your Client Dashboard.",
+      "type": "proposal",
+      "read": false,
+      "targetView": "dashboard",
+      "createdAt": "2026-11-16T19:53:10.643Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "jobId": "job-1",
+      "jobTitle": "Lead React & TypeScript Architect for Merchant Portal",
+      "freelancerId": "usr-fl-1",
+      "clientId": "usr-client-1",
+      "clientName": "Amara Diallo",
+      "companyName": "Teranga FinTech Group",
+      "rating": 5,
+      "comment": "Delivered clean, production-ready TypeScript architecture ahead of schedule with disciplined documentation.",
+      "verified": true,
+      "createdAt": "2026-11-16T19:53:10.643Z"
+    },
+    {
+      "id": "rev-2",
+      "jobId": "job-3",
+      "jobTitle": "Corporate Brand Identity & Design System Overhaul",
+      "freelancerId": "usr-fl-2",
+      "clientId": "usr-client-1",
+      "clientName": "Amara Diallo",
+      "companyName": "Teranga FinTech Group",
+      "rating": 4.9,
+      "comment": "Exceptional editorial sensibility and responsive Figma component library ready for immediate engineering handoff.",
+      "verified": true,
+      "createdAt": "2026-11-16T19:53:10.643Z"
+    }
+  ],
+  "reports": [],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "name": "Amara Diallo",
+      "role": "Chief Operating Officer",
+      "companyOrSpecialty": "Teranga FinTech Group",
+      "country": "Senegal",
+      "quote": "Demonstration showcase: Hiring senior engineering and design specialists across Accra and Lagos cut our product launch cycle while raising architectural quality.",
+      "photoUrl": "/src/assets/images/promo_client_team_1794858344137.jpg",
+      "perspective": "Client",
+      "isDemo": true,
+      "verifiedRating": 5
+    },
+    {
+      "id": "test-2",
+      "name": "Kwame Mensah",
+      "role": "Principal Software Architect",
+      "companyOrSpecialty": "IT & Software Development",
+      "country": "Ghana",
+      "quote": "Demonstration showcase: Having a structured international profile and direct client briefs lets independent African engineers compete purely on technical merit.",
+      "photoUrl": "/src/assets/images/portrait_male_engineer_1794858345961.jpg",
+      "perspective": "Freelancer",
+      "isDemo": true,
+      "verifiedRating": 5
+    },
+    {
+      "id": "test-3",
+      "name": "Wanjiku Kamau",
+      "role": "Chartered Accountant & Advisor",
+      "companyOrSpecialty": "Accounting & Finance",
+      "country": "Kenya",
+      "quote": "Demonstration showcase: International advisory firms value rigorous IFRS reporting and clear communication across time zones.",
+      "photoUrl": "/src/assets/images/portrait_female_finance_1794858346533.jpg",
+      "perspective": "Freelancer",
+      "isDemo": true,
+      "verifiedRating": null
+    }
+  ],
+  "activityLog": [
+    {
+      "id": "act-1",
+      "actorName": "System Seed",
+      "action": "Initialized marketplace registry",
+      "target": "15 Categories · Showcase Profiles & Open Briefs",
+      "timestamp": "2026-11-16T19:53:10.643Z"
+    }
+  ],
+  "subscriptionSettings": {
+    "commissionPercent": 5,
+    "freelancerProMonthlyUsd": 19,
+    "clientEnterpriseMonthlyUsd": 79,
+    "featuredJobUsd": 29,
+    "featuredProfileUsd": 25
+  },
+  "resetTokens": [],
+  "transactions": [],
+  "escrows": [],
+  "interviews": [
+    {
+      "id": "int-1",
+      "jobId": "job-2",
+      "jobTitle": "Chartered Accountant for Cross-Border IFRS Consolidation",
+      "clientId": "usr-client-2",
+      "clientName": "David Kensington",
+      "companyName": "Meridian Advisory Partners",
+      "freelancerId": "usr-fl-3",
+      "freelancerName": "Wanjiku Kamau",
+      "scheduledAt": "2026-11-24T11:00",
+      "durationMinutes": 30,
+      "meetingNotes": "Review Q4 multi-entity consolidation timeline and IFRS audit sign-off scope.",
+      "meetingLink": "https://meet.afro-lancers.com/meridian-ifrs-brief",
+      "status": "confirmed",
+      "createdAt": "2026-11-16T22:30:12.878Z"
+    }
+  ],
+  "projectTasks": [
+    {
+      "id": "task-1",
+      "jobId": "job-1",
+      "proposalId": "prop-1",
+      "title": "RBAC & Multi-Currency Settlement Schema Sign-Off",
+      "status": "done",
+      "assigneeName": "Kwame Mensah",
+      "dueDate": "2026-11-20",
+      "updatedAt": "2026-11-16T22:30:12.878Z"
+    },
+    {
+      "id": "task-2",
+      "jobId": "job-1",
+      "proposalId": "prop-1",
+      "title": "Merchant Payout Audit CSV & Webhook Handler",
+      "status": "done",
+      "assigneeName": "Kwame Mensah",
+      "dueDate": "2026-12-01",
+      "updatedAt": "2026-11-16T22:30:12.878Z"
+    }
+  ],
+  "ads": [
+    {
+      "id": "ad-1",
+      "advertiserId": "usr-client-1",
+      "advertiserName": "Teranga Cloud & Treasury",
+      "title": "Zero-Friction Cross-Border Treasury for African Teams",
+      "summary": "Multi-currency USD, EUR, XOF, NGN, and ZAR corporate accounts built for distributed African startups and remote contractors.",
+      "ctaLabel": "Explore Partner Offer",
+      "targetUrl": "#payments-section",
+      "category": "FinTech & Treasury",
+      "placement": "home",
+      "status": "active",
+      "budgetUsd": 250,
+      "createdAt": "2026-11-16T22:30:12.878Z"
+    },
+    {
+      "id": "ad-2",
+      "advertiserId": "usr-client-2",
+      "advertiserName": "Meridian Executive Advisory",
+      "title": "Expand Into UK & EMEA Enterprise Procurement",
+      "summary": "Compliance readiness audits and cross-border vendor onboarding support for top-rated African digital agencies.",
+      "ctaLabel": "Learn More",
+      "targetUrl": "#how-it-works-section",
+      "category": "Enterprise Compliance",
+      "placement": "directory",
+      "status": "active",
+      "budgetUsd": 180,
+      "createdAt": "2026-11-16T22:30:12.878Z"
+    }
+  ]
+}

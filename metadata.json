@@ -1,0 +1,6 @@
+{
+  "name": "Afro-lancers.com",
+  "description": "Africa's premium freelancing marketplace connecting skilled African professionals with businesses, entrepreneurs, and international clients.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
